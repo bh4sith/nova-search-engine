@@ -1,0 +1,3 @@
+FROM nova-search-engine
+
+CMD [ "python", "run_worker.py" ]
