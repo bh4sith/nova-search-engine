@@ -10,6 +10,9 @@ Then, a new document representing the URL's data is saved in ElasticSearch, and 
 ### Searching
 When searching for relevant URLs, the engine will compare the query with the data of each document (web page), and retrieve a list of URLs matching the query, sorted by relevance.
 
+### UI
+This search engine can be used with an UI : https://github.com/bh4sith/nova-search-engine-ui
+
 ### Note
 This API works for a finite list of languages, see here for the complete list :   https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-lang-analyzer.html.
 
